@@ -15,7 +15,7 @@ steps:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'OpenShift cluster'
     version: '4.2'
-    cmd: 'oc project myapp'
+    cmd: 'oc project jcalvo-dev'
   displayName: Switch to myapp project
 - task: oc-cmd@2
   inputs:
